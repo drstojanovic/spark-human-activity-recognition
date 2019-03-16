@@ -65,7 +65,7 @@ public class MainClass {
         processParamteres(args);
 
         SparkSession spark = SparkSession.builder()
-                .appName("ExtraSensoryDemo")
+                .appName("Master-HAR")
                 .master(master)
                 .getOrCreate();
         spark.sparkContext().setLogLevel("WARN");
